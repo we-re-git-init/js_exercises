@@ -3,7 +3,7 @@ def print_numbers_divisible_by_three
   index = 1
   while index <= 1000
     if index % 3 == 0
-      puts index
+      # puts index
     end
     index += 1
   end
@@ -16,7 +16,7 @@ def print_every_other_item(strings)
   index = 0
   strings.each do |string|
     if index % 2 == 0
-      puts string
+      # puts string
     end
     index += 1
   end
@@ -32,7 +32,7 @@ def compute_sum(numbers)
   end
   return sum
 end
-puts compute_sum([2, 4, 5])
+# puts compute_sum([2, 4, 5])
 
 
 # Start with the hash: city_populations = {chi: 2700000}
@@ -41,7 +41,7 @@ puts compute_sum([2, 4, 5])
 city_populations = {chi: 2700000}
 city_populations[:nyc] = 8400000
 city_populations[:sf] = 800000
-p city_populations
+# p city_populations
 
 
 
@@ -70,6 +70,23 @@ p city_populations
 
 # Write a method that accepts a number and returns its factorial.
 # For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
+
+# write the method and call the method
+# write a SIMPLE loop
+# modify that loop
+
+def factorital(number)
+  index = 5
+  result = 1
+  number.times do
+    result *= index
+    index -= 1
+  end
+  result
+end
+
+
+p factorital(5)
 
 
 # Write a method that accepts two arrays of numbers, and prints the sum of every combination of numbers from first and second array.
