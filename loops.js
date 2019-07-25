@@ -3,7 +3,7 @@
 
 // print numbers from 1-100
 
-var i = 0;
+var i = 0
 
 while (i < 100) {
   console.log(i);
@@ -15,7 +15,7 @@ var fruits = ['blackberry', 'raspberry', 'peach', 'cherry'];
 
 fruits.forEach(function(fruit) {
   console.log(fruit);
-})
+});
 
 
 
